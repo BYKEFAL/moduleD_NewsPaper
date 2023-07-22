@@ -1,0 +1,32 @@
+{% extends 'layout/default.html' %}
+
+{% block title %}
+News
+{% endblock title %}
+
+{% block content %}
+<br>
+<h1>Все НОВОСТИ</h1>
+{% if posts %}
+<h3>Количество НОВОСТЕЙ - {{posts|length}}</h3>
+<br>
+
+<table class="table">
+   <tr>
+      <th scope="col">ЗАГОЛОВОК</th>
+      <th scope="col">ДАТА</th>
+      <th scope="col">ПРЕВЬЮ</th>
+   </tr>
+   {% for i in posts %}
+   <tr onclick="window.location='/posts/{{i.pk}}'" style="cursor: pointer;">
+      <td>{{ i.title}}</td>
+      <td>{{ i.dateCreation|date:'d M Y'}}</td>
+      <td>{{ i.preview|truncatewords:15}}</td>
+   </tr>
+   {% endfor %}
+</table>
+{%else%}
+<h1>НОВОСТЕЙ - нету!!!</h1>
+{%endif%}
+
+{% endblock content %}

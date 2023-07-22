@@ -1,0 +1,15 @@
+{% extends 'layout/default.html' %}
+
+{% block title %}
+News
+{% endblock title %}
+
+<!-- В контенте на странице мы выводим все товары -->
+{% block content %}
+<br>
+<h1>Пост под номером №-{{ onepost.pk }}</h1>
+<h3> Заголовок - {{ onepost.title }}</h3>
+<h4> Дата публикации - {{ onepost.dateCreation|date:'d M Y' }}</h4>
+<br>
+<h5>Текст поста:</h5>{{ onepost.text }}
+{% endblock content %}
