@@ -1,5 +1,7 @@
 {% extends 'layout/default.html' %}
 
+{%load custom_filters%}
+
 {% block title %}
 News
 {% endblock title %}
@@ -8,8 +10,8 @@ News
 {% block content %}
 <br>
 <h1>Пост под номером №-{{ onepost.pk }}</h1>
-<h3> Заголовок - {{ onepost.title }}</h3>
-<h4> Дата публикации - {{ onepost.dateCreation|date:'d M Y' }}</h4>
+<h3> Заголовок - {{ onepost.title|censor }}</h3>
+<h4> Дата публикации - {{ onepost.dateCreation|date:'d-m-Y H:i' }}</h4>
 <br>
-<h5>Текст поста:</h5>{{ onepost.text }}
+<h5>Текст поста:</h5>{{ onepost.text|censor }}
 {% endblock content %}

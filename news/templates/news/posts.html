@@ -1,5 +1,7 @@
 {% extends 'layout/default.html' %}
 
+{%load custom_filters%}
+
 {% block title %}
 News
 {% endblock title %}
@@ -18,10 +20,10 @@ News
       <th scope="col">ПРЕВЬЮ</th>
    </tr>
    {% for i in posts %}
-   <tr onclick="window.location='/posts/{{i.pk}}'" style="cursor: pointer;">
-      <td>{{ i.title}}</td>
-      <td>{{ i.dateCreation|date:'d M Y'}}</td>
-      <td>{{ i.preview|truncatewords:15}}</td>
+   <tr onclick="window.location='/news/{{i.pk}}'" style="cursor: pointer;">
+      <td>{{ i.title|censor }}</td>
+      <td>{{ i.dateCreation|date:'d-m-Y'}}</td>
+      <td>{{ i.preview|truncatechars:50|censor}}</td>
    </tr>
    {% endfor %}
 </table>
