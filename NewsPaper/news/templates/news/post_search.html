@@ -3,24 +3,31 @@
 {%load custom_filters%}
 
 {% block title %}
-News
+Search
 {% endblock title %}
 
 {% block content %}
 <br>
-<h1>НОВОСТИ</h1>
-{% if posts %}
-<h3>НОВОСТЕЙ на СТРАНИЦЕ - {{posts|length}}</h3>
+<h1>ПОИСК НОВОСТЕЙ</h1>
+<h3>НАЙДЕНО НОВОСТЕЙ - {{filter.qs|length}}</h3>
 <br>
 
+{% if posts_search %}
+<form method="GET">
+   {{ filter.form }}
+   <input type="submit" value="Найти">
+</form>
+<br>
 <table class="table">
    <tr>
+      <th scope="col">АВТОР</th>
       <th scope="col">ЗАГОЛОВОК</th>
-      <th scope="col">ДАТА</th>
+      <th scope="col">ДАТА ПУБЛИКАЦИИ</th>
       <th scope="col">СОДЕРЖАНИЕ</th>
    </tr>
-   {% for i in posts %}
+   {% for i in filter.qs %}
    <tr onclick="window.location='/news/{{i.pk}}'" style="cursor: pointer;">
+      <td>{{ i.author.authorUser.username }}</td>
       <td>{{ i.title|censor }}</td>
       <td>{{ i.dateCreation|date:'d-m-Y'}}</td>
       <td>{{ i.preview|truncatechars:50|censor}}</td>
@@ -30,7 +37,5 @@ News
 {%else%}
 <h1>НОВОСТЕЙ - нету!!!</h1>
 {%endif%}
-
-{% include 'news/parts/paginator.html' %}
 
 {% endblock content %}
