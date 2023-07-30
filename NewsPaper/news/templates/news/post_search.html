@@ -18,19 +18,27 @@ Search
    <input type="submit" value="Найти">
 </form>
 <br>
-<table class="table">
+<table class="table table-striped">
    <tr>
       <th scope="col">АВТОР</th>
       <th scope="col">ЗАГОЛОВОК</th>
       <th scope="col">ДАТА ПУБЛИКАЦИИ</th>
       <th scope="col">СОДЕРЖАНИЕ</th>
+      <th scope="col">РЕД./УДАЛ.</th>
    </tr>
    {% for i in filter.qs %}
-   <tr onclick="window.location='/news/{{i.pk}}'" style="cursor: pointer;">
+   <!-- <tr onclick="window.location='/news/detail/{{i.pk}}'" style="cursor: pointer;"> другой мой вариант-->
+   <tr>
       <td>{{ i.author.authorUser.username }}</td>
-      <td>{{ i.title|censor }}</td>
+      <!-- <td>{{ i.title|censor }}</td> -->
+      <td><a href="{% url 'news:second_post_detail' i.id %}">{{ i.title|censor }}</a></td>
+      <!-- вариант ссылки скилфэктори, чтоб ссылка работала надо добавить app_name='news' в url-->
       <td>{{ i.dateCreation|date:'d-m-Y'}}</td>
       <td>{{ i.preview|truncatechars:50|censor}}</td>
+      <td>
+         <a href="{% url 'news:post_update' i.id %}">Update</a>
+         <a href="{% url 'news:post_delete' i.id %}">Delete</a>
+      </td>
    </tr>
    {% endfor %}
 </table>

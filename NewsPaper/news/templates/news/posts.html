@@ -13,7 +13,7 @@ News
 <h3>НОВОСТЕЙ на СТРАНИЦЕ - {{posts|length}}</h3>
 <br>
 
-<table class="table">
+<table class="table table-striped">
    <tr>
       <th scope="col">ЗАГОЛОВОК</th>
       <th scope="col">ДАТА</th>
@@ -32,5 +32,34 @@ News
 {%endif%}
 
 {% include 'news/parts/paginator.html' %}
+
+<!-- <br>
+<br>
+<form method="POST">
+   {% csrf_token %}
+   {{ form }}
+   <input class="btn btn-success" type="submit" value="Add News">
+</form> -->
+
+<!-- <form method="POST">
+   {% csrf_token %}
+   <label for="author" class="form-label">Author</label>
+   <input name="author" id="author" type="text" class="form-control">
+   <label for="title" class="form-label">Title</label>
+   <input name="title" id="title" type="text" class="form-control">
+   <label for="text" class="form-label">Text</label>
+   <input name="text" id="text" type="text" class="form-control">
+   <label for="select" class="form-label">Type</label>
+   <select name="type" id="select" class="form-select">
+      <option></option>
+      {% for i in choices %}
+      <option value="{{ i.0 }}">
+         {{ i.1 }}
+      </option>
+      {% endfor %}
+   </select>
+   <br>
+   <input class="btn btn-success" type="submit" value="Add">
+</form> -->
 
 {% endblock content %}

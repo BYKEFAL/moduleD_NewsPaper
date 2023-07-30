@@ -1,0 +1,34 @@
+{% extends 'layout/default.html' %}
+
+
+{% block title %}
+Post Delete
+{% endblock title %}
+
+{% block content %}
+<br>
+<h3>Delete this Post?</h3>
+<br>
+<div class="card">
+   <div class="card-header">
+      <h3>
+         Заголовок - {{ post.title }}
+      </h3>
+      <div>
+         Категория:<span class="col mx-2 badge text-dark bg-warning">
+            {{post.get_categoryType_display|safe}}</span>
+         Дата:<span class="col mx-2 badge text-dark bg-warning">
+            {{ post.dateCreation|date:'d-m-Y H:i'}}</span>
+      </div>
+   </div>
+   <div class="card-body">
+      <span class="col mr-auto badge text-dark bg-warning"> {{ post.preview }} </span>
+   </div>
+</div>
+<br>
+<form method="POST">
+   {% csrf_token %}
+   <input class="btn btn-success" type="submit" value="Delete News">
+</form>
+
+{% endblock content %}

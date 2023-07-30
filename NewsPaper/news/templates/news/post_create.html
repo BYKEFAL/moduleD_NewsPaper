@@ -1,0 +1,25 @@
+{% extends 'layout/default.html' %}
+
+
+{% block title %}
+{%if 'add' in request.path%}
+News Create
+{%else%}
+News Update
+{%endif%}
+{% endblock title %}
+
+
+
+{% block content %}
+<br>
+<h3>News Information</h3>
+
+<form method="POST">
+   {% csrf_token %}
+   {{ form }}
+   <br>
+   <input class="btn btn-success" type="submit" value="Add News">
+</form>
+
+{% endblock content %}

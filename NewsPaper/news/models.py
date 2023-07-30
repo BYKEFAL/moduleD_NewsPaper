@@ -61,6 +61,10 @@ class Post(models.Model):
     def __str__(self) -> str:
         return f'{self.title} {self.preview()}'
 
+    # добавим абсолютный путь, чтобы после создания нас перебрасывало на страницу с постом
+    def get_absolute_url(self):
+        return f'/news/{self.id}'
+
 
 class PostCategory(models.Model):
     postThrough = models.ForeignKey(Post, on_delete=models.CASCADE)
