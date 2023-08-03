@@ -20,7 +20,11 @@ from news.views import Home
 
 urlpatterns = [
     path('', Home.as_view(), name='home'),
-    path('admin/', admin.site.urls),
-    path('pages/', include('django.contrib.flatpages.urls')),
+    # path('', include('protect.urls')),
+    path('sign/', include('sign.urls')),
     path('news/', include('news.urls')),
+
+    path('accounts/', include('allauth.urls')),
+    path('pages/', include('django.contrib.flatpages.urls')),
+    path('admin/', admin.site.urls),
 ]
