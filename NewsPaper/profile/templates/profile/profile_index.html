@@ -11,7 +11,23 @@
    Здесь может содержаться персональная информация для каждого пользователя
 </div>
 <br>
+
 <br>
-<a class="btn btn-primary" href="sign/logout/">Выйти</a>
+<a class="btn btn-primary" href="{% url 'account_logout' %}">Выйти</a>
+
+{% if is_not_author %}
+<a class="btn btn-info" href="{% url 'profile:upgrade' %}">
+   ХОЧУ СТАТЬ АВТОРОМ!
+</a>
+{%else%}
+
+<br>
+<br>
+<h3>
+   Вы состоите в группе <span style="text-transform: uppercase;">АВТОРОВ</strong></span>
+</h3>
+{% endif %}
+
+
 
 {% endblock content %}

@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'news',
     'accounts',
     'sign',
-    'protect',
+    'profile',
 
 
     'django.contrib.sites',
@@ -146,7 +146,8 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 
 LOGIN_URL = '/accounts/login/'
 
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/profile/'
+LOGOUT_REDIRECT_URL = '/sign/logout'
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
@@ -155,6 +156,8 @@ AUTHENTICATION_BACKENDS = [
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
+
+ACCOUNT_FORMS = {'signup': 'sign.forms.BasicSignupForm'}
 
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True

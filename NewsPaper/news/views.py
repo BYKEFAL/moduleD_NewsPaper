@@ -1,6 +1,7 @@
 from django.views.generic import ListView, DetailView, TemplateView, CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import PermissionRequiredMixin
 # from django.shortcuts import render
 # from django.views import View
 # from django.core.paginator import Paginator
@@ -74,14 +75,17 @@ class PostDetailView(DetailView):
     # queryset = Post.objects.all()
 
 
-class PostCreate(CreateView):
+class PostCreate(PermissionRequiredMixin, CreateView):
     template_name = 'news/post_create.html'
     form_class = PostForm
+    permission_required = ('news.add_post')
 
 
-class PostUpdate(LoginRequiredMixin, UpdateView):
+class PostUpdate(PermissionRequiredMixin, LoginRequiredMixin, UpdateView):
     template_name = 'news/post_create.html'
     form_class = PostForm
+    success_url = '/'
+    permission_required = ('news.change_post')
 
     # метод get_object мы используем вместо queryset, чтобы получить информацию об объекте который мы собираемся редактировать
     def get_object(self, **kwargs):

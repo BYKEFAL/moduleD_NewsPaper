@@ -6,6 +6,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.views.generic.edit import CreateView
 from .forms import RegisterForm
+from django.contrib.auth.models import Group
 
 
 class RegisterView(CreateView):
@@ -13,6 +14,16 @@ class RegisterView(CreateView):
     form_class = RegisterForm
     template_name = 'sign/signup.html'
     success_url = '/'
+
+    def form_valid(self, form):
+        user = form.save()
+        # group = Group.objects.get(name='my_group') # Обращаемся к БД, находим нужную группу.
+        # Может оказаться, что такой группы в БД нет. Тогда получим ошибку. Надёжнее использовать метод get_or_create.
+        # Обратите внимание, что этот метод возвращает кортеж, поэтому мы обращаемся к первому элементу кортежа через скобки.
+        group = Group.objects.get_or_create(name='common_group')[0]
+        user.groups.add(group)  # добавляем нового пользователя в эту группу
+        user.save()
+        return super().form_valid(form)
 
 
 class LoginView(FormView):

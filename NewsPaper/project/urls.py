@@ -18,9 +18,10 @@ from django.contrib import admin
 from django.urls import path, include
 from news.views import Home
 
+
 urlpatterns = [
     path('', Home.as_view(), name='home'),
-    # path('', include('protect.urls')),
+    path('profile/', include('profile.urls')),
     path('sign/', include('sign.urls')),
     path('news/', include('news.urls')),
 
