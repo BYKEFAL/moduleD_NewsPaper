@@ -4,6 +4,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import redirect
 from django.contrib.auth.models import Group
 from django.contrib.auth.decorators import login_required
+from news.models import Category
 
 
 class IndexView(LoginRequiredMixin, TemplateView):
@@ -13,6 +14,8 @@ class IndexView(LoginRequiredMixin, TemplateView):
         context = super().get_context_data(**kwargs)
         context['is_not_author'] = not self.request.user.groups.filter(
             name='author_group').exists()
+        context['category'] = Category.objects.filter(
+            subscribers=self.request.user)
         return context
 
 # Добавляем функциональное представление для повышения привилегий пользователя до членства в группе premium

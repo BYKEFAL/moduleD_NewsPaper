@@ -11,13 +11,15 @@ class PostForm(ModelForm):
     class Meta:
         model = Post
         author = User
-        fields = ['author', 'title', 'categoryType', 'text']
+        fields = ['author', 'title', 'categoryType', 'postCategory', 'text']
         widgets = {
             'author': forms.Select(attrs={'class': 'form-control', }),
             'title': forms.TextInput(attrs={'class': 'form-control', }),
             'categoryType': forms.Select(attrs={'class': 'form-control', }),
+            'postCategory': forms.CheckboxSelectMultiple(),
             'text': forms.Textarea(attrs={'class': 'form-control', }),
         }
         labels = {
             'categoryType': 'Type',
+            'postCategory': 'Category'
         }

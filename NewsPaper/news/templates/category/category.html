@@ -1,0 +1,22 @@
+{% extends 'layout/default.html' %}
+
+{% block title %}
+Categories
+{% endblock title %}
+
+{% block content %}
+<br>
+<div class="btn-toolbar justify-content-between border-bottom pb-2 mb-5">
+   <h1 class="post-title">Категории</h1>
+   {% comment %} <a href="{#% url 'news:category_create' %#}" class="btn btn-success d-flex align-items-center"> Добавить категорию</a> {% endcomment %}
+</div>
+<div class="row">
+   {% for i in categories %}
+   <div class="col-3">
+      <h5>{{ i.name }}</h5>
+      <p>Всего постов: {{ i.post_set.all.count }}</p>
+      <a class="btn btn-secondary" href="{% url 'news:category_detail' i.id %}">Ознакомиться</a>
+   </div>
+   {% endfor%}
+</div>
+{% endblock content %}

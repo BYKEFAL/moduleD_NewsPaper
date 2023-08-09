@@ -1,0 +1,49 @@
+{% extends 'layout/default.html' %}
+
+{%load custom_filters%}
+
+{% block title %}
+{{ category.name }}
+{% endblock title %}
+
+{% block content %}
+  <br>
+  <h1>
+    <small>Категория</small> - {{ category.name }} <small class="font-italic text-muted">/ Подписчиков - {{ subscribers.count }} </small>
+  </h1>
+   {% if is_subscribed %}
+        <div>
+            <h3><em>
+                Отписаться от категории
+                <strong> {{ category.name }} ? </strong>
+            </em>
+                <a href = "{% url 'news:category_unsubscribe' category.id %}" class="btn btn-primary"> Отписаться!</a></h3>
+        </div>
+   {% else %}
+        <div>
+            <h3><em>Подписаться на категорию <strong> {{ category.name }} ? </strong></em>
+                <a href = "{% url 'news:category_subscribe' category.id %}" class="btn btn-primary" > Подписаться !</a>
+            </h3>
+        </div>
+    {% endif %}
+    
+    <br>   
+    <h2>Все новости категории {{ category.name }}: </h2>
+
+    {%  for i in category.post_set.all%}
+       <div class="row g-4 py-2 row-cols-1">
+                <div>
+                    <div>
+                        <h3 class="fs-2">{{ i.title|censor|truncatechars:30}} - <small class="bg-warning">категория ({{category.name}})</small></h3>
+                        <p><b>Дата публикации:{{ i.dateCreation|date:'d.m.Y' }} <br> Автор - {{ i.author }}</b></p>
+                        <p>{{ i.preview|censor }}</p>
+                        <a href="{% url 'news:first_post_detail' i.id %}" class="btn btn-primary btn-sm">
+                            Читать
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+    {% endfor %}
+
+{% endblock content %}

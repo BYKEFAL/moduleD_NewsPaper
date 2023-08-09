@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -145,7 +147,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [BASE_DIR / "static"]
 
 LOGIN_URL = '/accounts/login/'
-
 LOGIN_REDIRECT_URL = '/profile/'
 LOGOUT_REDIRECT_URL = '/sign/logout'
 
@@ -159,8 +160,27 @@ AUTHENTICATION_BACKENDS = [
 
 ACCOUNT_FORMS = {'signup': 'sign.forms.BasicSignupForm'}
 
+# настройки allauth
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_USER_MODEL_USERNAME_FIELD = 'username'
+ACCOUNT_EMAIL_CONFIRMATION_AUTHENTICATED_REDIRECT_URL = '/profile/'
+ACCOUNT_CONFIRM_EMAIL_ON_GET = True
+
+# мои настройки из .env
+EMAIL_HOST = str(os.getenv('EMAIL_HOST'))
+EMAIL_PORT = str(os.getenv('EMAIL_PORT'))
+EMAIL_HOST_USER = str(os.getenv('EMAIL_HOST_USER'))
+EMAIL_HOST_PASSWORD = str(os.getenv('EMAIL_HOST_PASSWORD'))
+EMAIL_USE_SSL = True
+DEFAULT_FROM_EMAIL = str(os.getenv('DEFAULT_FROM_EMAIL'))
+SERVER_EMAIL = DEFAULT_FROM_EMAIL
+EMAIL_ADMIN = DEFAULT_FROM_EMAIL
+# тестовое мыло
+MY_TEST_EMAIL = str(os.getenv('MY_TEST_EMAIL'))
+
+# Для просмотра HTML-шаблонов, которые отправляются на мыло, в консоли
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

@@ -11,8 +11,8 @@ News
 <h1>НОВОСТИ</h1>
 {% if posts %}
 <h3>НОВОСТЕЙ на СТРАНИЦЕ - {{posts|length}}</h3>
+<h3 class="mt-2">Новости по категориям - <a class="btn btn-secondary" href="{% url 'news:category_list' %}">К просмотру</a></h3>
 <br>
-
 <table class="table table-striped">
    <tr>
       <th scope="col">ЗАГОЛОВОК</th>

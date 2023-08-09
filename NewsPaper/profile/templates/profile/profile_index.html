@@ -12,8 +12,8 @@
 </div>
 <br>
 
-<br>
-<a class="btn btn-primary" href="{% url 'account_logout' %}">Выйти</a>
+
+<a class="btn btn-primary mb-2 mr-4" href="{% url 'account_logout' %}">Выйти</a>
 
 {% if is_not_author %}
 <a class="btn btn-info" href="{% url 'profile:upgrade' %}">
@@ -21,12 +21,16 @@
 </a>
 {%else%}
 
-<br>
-<br>
-<h3>
-   Вы состоите в группе <span style="text-transform: uppercase;">АВТОРОВ</strong></span>
+<h3 class="mx-4"style="display:inline;">
+   Вы состоите в группе <span style="text-transform: uppercase;"><strong>АВТОРОВ</strong></span>
 </h3>
 {% endif %}
+<br>
+<br>
+<h4> Категории на которые вы подписаны:</h4>
+{%for i in category%}
+<a href="{% url 'news:category_detail' i.id %}" class='btn btn-success'>{{i}}</a>
+{%endfor%}
 
 
 
