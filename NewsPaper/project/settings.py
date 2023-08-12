@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'news',
+    'news.apps.NewsConfig',
+
     'accounts',
     'sign',
     'profile',
@@ -55,6 +56,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
+
+    'django_apscheduler',
 
 ]
 
@@ -184,3 +187,10 @@ MY_TEST_EMAIL = str(os.getenv('MY_TEST_EMAIL'))
 
 # Для просмотра HTML-шаблонов, которые отправляются на мыло, в консоли
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+# формат даты, которую будет воспринимать наш задачник(вспоминаем урок по фильтрам)
+APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
+
+# если задача не выполняется за 25 секунд, то она автоматически снимается, можете поставить время побольше, но как правило, это сильно бьёт по производительности сервера
+APSCHEDULER_RUN_NOW_TIMEOUT = 25  # Seconds

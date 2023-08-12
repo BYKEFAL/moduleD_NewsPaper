@@ -11,7 +11,7 @@ News
 <br>
 <h1> Пост под номером №-{{ onepost.pk }}</h1>
 <h2> Эта новость состоит в Категориях - {%for i in onepost.postCategory.all%}
-                    <span class="col bg-success mx-2 px-3 text-white"> {{i}} </span>
+                     <a class="btn btn-success mx-1 px-3 text-white" href="{% url 'news:category_detail' i.id %}">{{i}}</a>
                  {%endfor%}</h2>
 
 <h3> Заголовок - {{ onepost.title|censor }}</h3>

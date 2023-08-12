@@ -118,7 +118,7 @@ def CategorySubscribe(request, pk):
 
     if not category.subscribers.filter(id=user.id).exists():
         category.subscribers.add(user)
-        # email = user.email
+        email = user.email
         html = render_to_string(
             'mailing/notification_subscribe.html',
             {
@@ -131,8 +131,8 @@ def CategorySubscribe(request, pk):
             subject=f'Подтверждение подписи на категорию - {category.name}',
             body='спасибо что подписались!',
             from_email=settings.DEFAULT_FROM_EMAIL,
-            # это то же, что и recipients_list - передаем коллекцию
-            to=[settings.MY_TEST_EMAIL, ],
+            # to=[settings.MY_TEST_EMAIL, ], тестировал отправку на реальную почту
+            to=[email, ],
         )
 
         msg.attach_alternative(html, 'text/html')
