@@ -12,6 +12,7 @@ from django.contrib.auth.decorators import login_required
 from django.core.mail import EmailMultiAlternatives, send_mail
 from django.conf import settings
 # from django_filters.views import BaseFilterView
+from django.core.cache import cache  # импортируем наш кэш
 
 from .filters import PostFilter
 from .models import *
@@ -53,11 +54,35 @@ class PostDetail(DetailView):
     template_name = 'news/post_detail_one.html'
     context_object_name = 'onepost'
 
+    # переопределяем метод получения объекта, как ни странно
+    def get_object(self, *args, **kwargs):
+        # кэш очень похож на словарь, и метод get действует также. Он забирает значение по ключу, если его нет, то забирает None.
+        obj = cache.get(f'post-{self.kwargs["pk"]}', None)
+
+        # если объекта нет в кэше, то получаем его и записываем в кэш
+        if not obj:
+            obj = super().get_object(queryset=self.queryset)
+            cache.set(f'post-{self.kwargs["pk"]}', obj)
+
+        return obj
+
 
 class PostDetailView(DetailView):
     model = Post
     template_name = 'news/post_detail.html'
     # queryset = Post.objects.all()
+
+    # переопределяем метод получения объекта, как ни странно
+    def get_object(self, *args, **kwargs):
+        # кэш очень похож на словарь, и метод get действует также. Он забирает значение по ключу, если его нет, то забирает None.
+        obj = cache.get(f'post-{self.kwargs["pk"]}', None)
+
+        # если объекта нет в кэше, то получаем его и записываем в кэш
+        if not obj:
+            obj = super().get_object(queryset=self.queryset)
+            cache.set(f'post-{self.kwargs["pk"]}', obj)
+
+        return obj
 
 
 class PostCreate(PermissionRequiredMixin, CreateView):

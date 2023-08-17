@@ -22,14 +22,19 @@
 </head>
 
 <body>
+   {%load cache%}
+   {%cache 300 header%}
    {% include './parts/header.html' %}
+   {%endcache header%}
 
    <div class="container mt-2">
       {% block content %}
       {% endblock content %}
    </div>
 
+   {%cache 300 footer%}
    {% include './parts/footer.html' %}
+   {%endcache footer%}
 </body>
 
 </html>
