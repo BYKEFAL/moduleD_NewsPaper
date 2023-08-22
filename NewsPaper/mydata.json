@@ -1,0 +1,3207 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-07-22T12:16:36.113Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "News 1 \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ...",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-07-22T12:19:43.267Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "News 1 \"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ...",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-07-22T12:20:03.068Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Article 2 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature fro...",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-07-22T12:20:14.057Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Article 1 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by i...",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-07-22T13:40:01.505Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "News 2 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-07-22T13:40:48.674Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Article 3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-07-25T12:44:47.676Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Article 3 Lorem Ipsum эхїюЁю°шх ёыютр is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-07-25T12:48:02.212Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Article 2 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Lati",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-07-25T12:49:20.571Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "News 2 It is a Fuck Fuck long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-le",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-07-26T18:38:15.024Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "├хэр",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-07-26T18:43:40.224Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "News 4 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as oppos...",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-07-26T18:44:17.366Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Article 4 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as oppos...",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-07-26T18:44:41.537Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "News 3 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as oppos...",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-07-26T18:45:00.185Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "Article 5 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as oppos...",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-07-26T18:45:11.506Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "News 5 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as oppos...",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-07-26T18:45:22.446Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Article 6 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as oppos...",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-07-26T18:45:33.125Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "Article 7 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as oppos...",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-07-27T08:51:21.017Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Gena",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-07-27T08:51:39.081Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Ivan",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"First name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-07-27T08:53:54.226Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "Petr",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"First name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-07-31T18:02:27.087Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "Stefan",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-08-03T19:55:28.242Z",
+      "user": 3,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "127.0.0.1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-08-03T20:44:52.811Z",
+      "user": 3,
+      "content_type": 17,
+      "object_id": "1",
+      "object_repr": "Google",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-08-03T20:49:34.753Z",
+      "user": 3,
+      "content_type": 17,
+      "object_id": "1",
+      "object_repr": "Google",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-08-03T21:01:40.442Z",
+      "user": 3,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "expert",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-08-03T21:16:13.331Z",
+      "user": 3,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "oleg@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-08-03T21:21:00.768Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "8",
+      "object_repr": "expert",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-08-03T21:25:34.560Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "9",
+      "object_repr": "expert",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-08-04T18:57:36.291Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "basic",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-08-04T18:57:50.394Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "premium",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-08-04T18:59:55.496Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Gena",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-08-04T19:00:23.675Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "7",
+      "object_repr": "Gosha",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-08-04T19:09:55.626Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Gena",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-08-04T19:22:38.777Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "basic_group",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-08-04T19:22:46.379Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "premium_group",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-08-04T19:33:10.616Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "basic",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-08-04T19:33:23.932Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "11",
+      "object_repr": "newstefan",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-08-04T20:00:07.528Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "10",
+      "object_repr": "newgosha",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-08-05T13:14:35.043Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "premium_group",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-08-05T13:15:07.686Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "author_group",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-08-05T13:15:15.843Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "common_group",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-08-05T13:20:59.954Z",
+      "user": 3,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "author_group",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-08-05T13:58:35.043Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "7",
+      "object_repr": "Gosha",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-08-05T14:12:55.028Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "7",
+      "object_repr": "Gosha",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-08-09T19:55:01.010Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "12",
+      "object_repr": "oleg-expert",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-08-09T21:08:46.472Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "17",
+      "object_repr": "",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-08-09T21:13:44.651Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "18",
+      "object_repr": "",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-08-09T21:15:43.969Z",
+      "user": 3,
+      "content_type": 4,
+      "object_id": "19",
+      "object_repr": "",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add author",
+      "content_type": 7,
+      "codename": "add_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change author",
+      "content_type": 7,
+      "codename": "change_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete author",
+      "content_type": 7,
+      "codename": "delete_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view author",
+      "content_type": 7,
+      "codename": "view_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 8,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 8,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 8,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 8,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add post",
+      "content_type": 9,
+      "codename": "add_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change post",
+      "content_type": 9,
+      "codename": "change_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete post",
+      "content_type": 9,
+      "codename": "delete_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view post",
+      "content_type": 9,
+      "codename": "view_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add post category",
+      "content_type": 10,
+      "codename": "add_postcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change post category",
+      "content_type": 10,
+      "codename": "change_postcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete post category",
+      "content_type": 10,
+      "codename": "delete_postcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view post category",
+      "content_type": 10,
+      "codename": "view_postcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add comment",
+      "content_type": 11,
+      "codename": "add_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change comment",
+      "content_type": 11,
+      "codename": "change_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete comment",
+      "content_type": 11,
+      "codename": "delete_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view comment",
+      "content_type": 11,
+      "codename": "view_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add site",
+      "content_type": 12,
+      "codename": "add_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change site",
+      "content_type": 12,
+      "codename": "change_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete site",
+      "content_type": 12,
+      "codename": "delete_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view site",
+      "content_type": 12,
+      "codename": "view_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add flat page",
+      "content_type": 13,
+      "codename": "add_flatpage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change flat page",
+      "content_type": 13,
+      "codename": "change_flatpage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete flat page",
+      "content_type": 13,
+      "codename": "delete_flatpage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view flat page",
+      "content_type": 13,
+      "codename": "view_flatpage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add email address",
+      "content_type": 14,
+      "codename": "add_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change email address",
+      "content_type": 14,
+      "codename": "change_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete email address",
+      "content_type": 14,
+      "codename": "delete_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view email address",
+      "content_type": 14,
+      "codename": "view_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add email confirmation",
+      "content_type": 15,
+      "codename": "add_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change email confirmation",
+      "content_type": 15,
+      "codename": "change_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete email confirmation",
+      "content_type": 15,
+      "codename": "delete_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view email confirmation",
+      "content_type": 15,
+      "codename": "view_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add social account",
+      "content_type": 16,
+      "codename": "add_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change social account",
+      "content_type": 16,
+      "codename": "change_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete social account",
+      "content_type": 16,
+      "codename": "delete_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view social account",
+      "content_type": 16,
+      "codename": "view_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add social application",
+      "content_type": 17,
+      "codename": "add_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change social application",
+      "content_type": 17,
+      "codename": "change_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete social application",
+      "content_type": 17,
+      "codename": "delete_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view social application",
+      "content_type": 17,
+      "codename": "view_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add social application token",
+      "content_type": 18,
+      "codename": "add_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change social application token",
+      "content_type": 18,
+      "codename": "change_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete social application token",
+      "content_type": 18,
+      "codename": "delete_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view social application token",
+      "content_type": 18,
+      "codename": "view_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add django job",
+      "content_type": 19,
+      "codename": "add_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change django job",
+      "content_type": 19,
+      "codename": "change_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete django job",
+      "content_type": 19,
+      "codename": "delete_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view django job",
+      "content_type": 19,
+      "codename": "view_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add django job execution",
+      "content_type": 20,
+      "codename": "add_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change django job execution",
+      "content_type": 20,
+      "codename": "change_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete django job execution",
+      "content_type": 20,
+      "codename": "delete_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view django job execution",
+      "content_type": 20,
+      "codename": "view_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "common_group",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+      "name": "author_group",
+      "permissions": [
+        33,
+        34
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "!0C40lDkuCsVbv8D2767qBlPMShlOPIrkHG14BGYq",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Petr",
+      "first_name": "Petrovich",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-17T13:06:53Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "!3pFk14u3kT863WnpmKbOBV2qpizkS15MsrvD41yX",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Ivan",
+      "first_name": "Ivanovich",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-17T13:07:21Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$XkWaX9zA6X888y3GKngezo$ZqXjUL8oQkSo1qYph298fnLgDJS/VfxEt3Ck/DbvIhg=",
+      "last_login": "2023-08-12T21:05:16.772Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-07-18T20:53:52.283Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "!sVbJUqTg3TVsJp1BsYy7dbSAEvk4DQUgQUyabtFM",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Gena",
+      "first_name": "├хэрф№хтшў",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-26T18:36:39Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "!3V96fMt7RS0QgNx4jLAjuT87ffUkQZk7vxoH6JYY",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Mark",
+      "first_name": "Mark",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-28T20:19:57.700Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "!dBD7qSKguGuYdzO5wk9JvjGSuU0JoriMw4XJpwuw",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Stefan",
+      "first_name": "Stefanovich",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-07-28T21:34:56Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ydpv3pyR25nUizPVieb2CR$N0hWY8Hc9s45/73VeCcmWAPD2xCBXBU0H6fhU1Q3eSQ=",
+      "last_login": "2023-08-14T21:02:40.430Z",
+      "is_superuser": false,
+      "username": "Gosha",
+      "first_name": "",
+      "last_name": "",
+      "email": "gosha@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-02T20:03:29Z",
+      "groups": [
+        1,
+        3
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$UvqzduZwGHAtrjn9OtvmBL$b1VNYnC6yXwvVqj91VbmWLFFuiz2LqOsNO4IbhmCySw=",
+      "last_login": "2023-08-04T20:07:55.923Z",
+      "is_superuser": false,
+      "username": "newgosha",
+      "first_name": "",
+      "last_name": "",
+      "email": "newgosha@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-04T19:22:07Z",
+      "groups": [
+        3
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$DRDj1uhG7GxyRoKLl4unVr$k2PKP1ixnBEd1U1q6MJ/MtTP+0fkvweBxdQVRdHdfUM=",
+      "last_login": "2023-08-04T19:31:59Z",
+      "is_superuser": false,
+      "username": "newstefan",
+      "first_name": "",
+      "last_name": "",
+      "email": "newstefan@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-04T19:31:58Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$aFheSeuvxcCCyuv128Eb2g$Z+AvwKN3cO0iQvjByBfew8w3VeZTfSC/S4CZdidiAMQ=",
+      "last_login": "2023-08-09T19:58:32.354Z",
+      "is_superuser": false,
+      "username": "okok",
+      "first_name": "",
+      "last_name": "",
+      "email": "okok@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-09T19:58:31.215Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$qqbUPcEC7QU6Yoy9GxYeCL$xdE/oql6cZRC3Ut1ayxAdaVR+gHJUwDWj+U0Nd/V7ag=",
+      "last_login": "2023-08-09T20:02:50.261Z",
+      "is_superuser": false,
+      "username": "okokok",
+      "first_name": "",
+      "last_name": "",
+      "email": "okokok@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-09T20:02:49.037Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$qQlBHOpyim9rRLcBb96c17$QoIg6ELvswNRreJxa9cwaQIuebT5Xph2xH2UNPd+OSg=",
+      "last_login": "2023-08-09T20:10:52.220Z",
+      "is_superuser": false,
+      "username": "kykyky",
+      "first_name": "",
+      "last_name": "",
+      "email": "kykyky@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-09T20:10:51.389Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$XirZibNcwL2jeLYTNbwkUx$Ixjssfez1hAyF2bfyvIkWneg8B2u2E6Ha/iE5uOOOhg=",
+      "last_login": "2023-08-09T20:12:48.531Z",
+      "is_superuser": false,
+      "username": "xoxo",
+      "first_name": "",
+      "last_name": "",
+      "email": "xoxo@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-09T20:12:47.707Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 20,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$DsFnLuwd9upNplciraWXSI$hP/DDmBfwKbttDofBP+dRPxJDbXphwOwINt5e+/lM9k=",
+      "last_login": "2023-08-10T20:28:22.337Z",
+      "is_superuser": false,
+      "username": "asd",
+      "first_name": "",
+      "last_name": "",
+      "email": "asd@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-09T21:24:40.889Z",
+      "groups": [
+        1,
+        3
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$nKRU9zUMwMFgd4BngcvJMQ$0pIQsNs1N1Z6XmQJKSDRzlBuwTxHrh1alPll3S1sEDA=",
+      "last_login": "2023-08-09T21:27:25.517Z",
+      "is_superuser": false,
+      "username": "kat",
+      "first_name": "",
+      "last_name": "",
+      "email": "KAT@mail.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-08-09T21:26:52.871Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "news",
+      "model": "author"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "news",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "news",
+      "model": "post"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "news",
+      "model": "postcategory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "news",
+      "model": "comment"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "sites",
+      "model": "site"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "flatpages",
+      "model": "flatpage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "account",
+      "model": "emailaddress"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "account",
+      "model": "emailconfirmation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "socialaccount",
+      "model": "socialaccount"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "socialaccount",
+      "model": "socialapp"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "socialaccount",
+      "model": "socialtoken"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojob"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojobexecution"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3sqx8zkklbp1ciztnfn3abvzv6r8cfoz",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHymBZcuvcbyMAMUjWQlHZl_HfbpAvdnnPufYuA61LC2nkOE4mLMOL0yyKmJ9dd0APrvcnU6jJPUe6JPGyXt0b8uh7t30HBXra1J8wOhswRMpAafILIjHDW3mQDIxE5bXCM4BCsVSZb3gCzdag4a_H5AgTLOHc:1qOOHl:jq4NC_tshektNYhLMI7_Vq094efQ24RP2a58CGOnR8A",
+      "expire_date": "2023-08-08T20:05:33.519Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "rdnisk16plnnf27h7asxuwef3c60aiwb",
+    "fields": {
+      "session_data": ".eJxVjU0OwiAQhe_C2jSSFga604uQYRhSYkNNoYnGeHep6UKX7-97L-Fwq5PbCq8uBTEKEKdfzyPdOO8BzvNud0i0bLl2384Rl-7SFOeaCGta8vVY_aEmLFPjKOwtKgsygqYolQ2kaTAMqKMxqJkBBg4g0aMCZYKxBsD6PvReSqV3aOFS2o3jxz2tTzGe3x_GWkON:1qUCk6:rblE-kFSOX6fxciihiWBfQ_xHpmiRPk8pxNnBefkMvc",
+      "expire_date": "2023-08-24T20:58:50.952Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "s7ekjjci3wvg46xcy3lytcn0gue8gh2f",
+    "fields": {
+      "session_data": ".eJxVjU0OwiAQhe_C2jSSFga604uQYRhSYkNNoYnGeHep6UKX7-97L-Fwq5PbCq8uBTEKEKdfzyPdOO8BzvNud0i0bLl2384Rl-7SFOeaCGta8vVY_aEmLFPjKOwtKgsygqYolQ2kaTAMqKMxqJkBBg4g0aMCZYKxBsD6PvReSqV3aOFS2o3jxz2tTzGe3x_GWkON:1qT6iJ:zP0WQIERN7vZQMd_U1sIKYdTtQGFOEQmYV-_jnxuAE8",
+      "expire_date": "2023-08-21T20:20:27.155Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "sggofx1v5bzwtgmh9trykvn5l1za5v76",
+    "fields": {
+      "session_data": ".eJxVjU0OwiAQhe_C2jSSFga604uQYRhSYkNNoYnGeHep6UKX7-97L-Fwq5PbCq8uBTEKEKdfzyPdOO8BzvNud0i0bLl2384Rl-7SFOeaCGta8vVY_aEmLFPjKOwtKgsygqYolQ2kaTAMqKMxqJkBBg4g0aMCZYKxBsD6PvReSqV3aOFS2o3jxz2tTzGe3x_GWkON:1qTThu:0E4WGb1Q0Bx_T1-fhr_CE0_Oo2XmPPowZD9OYdFLWQE",
+      "expire_date": "2023-08-22T20:53:34.483Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "t2utihbt06jrx5gkbkwew0thtnnd9lot",
+    "fields": {
+      "session_data": ".eJxVjU0OwiAQhe_C2jSSFga604uQYRhSYkNNoYnGeHep6UKX7-97L-Fwq5PbCq8uBTEKEKdfzyPdOO8BzvNud0i0bLl2384Rl-7SFOeaCGta8vVY_aEmLFPjKOwtKgsygqYolQ2kaTAMqKMxqJkBBg4g0aMCZYKxBsD6PvReSqV3aOFS2o3jxz2tTzGe3x_GWkON:1qVei0:_8W_G-ZSQVawqmfNgqSLKNiWGAh1ZEFswv8OqLEI2Lw",
+      "expire_date": "2023-08-28T21:02:40.534Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "v5e7fv66cqi96mw4k31e57o3dhr7tzax",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHymBZcuvcbyMAMUjWQlHZl_HfbpAvdnnPufYuA61LC2nkOE4mLMOL0yyKmJ9dd0APrvcnU6jJPUe6JPGyXt0b8uh7t30HBXra1J8wOhswRMpAafILIjHDW3mQDIxE5bXCM4BCsVSZb3gCzdag4a_H5AgTLOHc:1qNBWS:9FF5HxIb3G2yvnHZs_2FF0OyUJrikUwkeGy_fs64TmU",
+      "expire_date": "2023-08-05T12:15:44.767Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "yqfkpqufep5ga394krq5ehezbmh71x26",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHymBZcuvcbyMAMUjWQlHZl_HfbpAvdnnPufYuA61LC2nkOE4mLMOL0yyKmJ9dd0APrvcnU6jJPUe6JPGyXt0b8uh7t30HBXra1J8wOhswRMpAafILIjHDW3mQDIxE5bXCM4BCsVSZb3gCzdag4a_H5AgTLOHc:1qLri2:5WFsLosLNf1JUzq0ovovT3_63i0zM_tjXZVsxDP2OjI",
+      "expire_date": "2023-08-01T20:54:14.768Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "z2pwflv325hwu9rstgksusbjtb4d4ep9",
+    "fields": {
+      "session_data": ".eJxVjU0OwiAQhe_C2jSSFga604uQYRhSYkNNoYnGeHep6UKX7-97L-Fwq5PbCq8uBTEKEKdfzyPdOO8BzvNud0i0bLl2384Rl-7SFOeaCGta8vVY_aEmLFPjKOwtKgsygqYolQ2kaTAMqKMxqJkBBg4g0aMCZYKxBsD6PvReSqV3aOFS2o3jxz2tTzGe3x_GWkON:1qUX4b:v4XWYTN4z0BXCdE5KlKjyZe47HrDccciI59TFF9SduU",
+      "expire_date": "2023-08-25T18:41:21.805Z"
+    }
+  },
+  {
+    "model": "news.author",
+    "pk": 1,
+    "fields": {
+      "authorUser": 1,
+      "ratingAuthor": 22
+    }
+  },
+  {
+    "model": "news.author",
+    "pk": 2,
+    "fields": {
+      "authorUser": 2,
+      "ratingAuthor": 9
+    }
+  },
+  {
+    "model": "news.author",
+    "pk": 3,
+    "fields": {
+      "authorUser": 4,
+      "ratingAuthor": 0
+    }
+  },
+  {
+    "model": "news.author",
+    "pk": 4,
+    "fields": {
+      "authorUser": 5,
+      "ratingAuthor": 0
+    }
+  },
+  {
+    "model": "news.author",
+    "pk": 5,
+    "fields": {
+      "authorUser": 6,
+      "ratingAuthor": 0
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 1,
+    "fields": {
+      "name": "IT",
+      "subscribers": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 2,
+    "fields": {
+      "name": "Sport",
+      "subscribers": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 3,
+    "fields": {
+      "name": "Science",
+      "subscribers": [
+        7,
+        20
+      ]
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 4,
+    "fields": {
+      "name": "Politics",
+      "subscribers": []
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "categoryType": "AR",
+      "dateCreation": "2023-07-17T13:16:11.727Z",
+      "title": "Article 1",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 3
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 2,
+    "fields": {
+      "author": 2,
+      "categoryType": "AR",
+      "dateCreation": "2023-07-17T13:16:53.827Z",
+      "title": "Article 2",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, эхїюЁю°шх ёыютр looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "rating": 2
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 3,
+    "fields": {
+      "author": 1,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-17T13:17:14.109Z",
+      "title": "News 1",
+      "text": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"",
+      "rating": 2
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 4,
+    "fields": {
+      "author": 1,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-22T13:40:01.502Z",
+      "title": "News 2",
+      "text": "It is a Fuck Fuck long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 4
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 5,
+    "fields": {
+      "author": 2,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-22T13:40:48.344Z",
+      "title": "Article 3",
+      "text": "Lorem Ipsum эхїюЁю°шх ёыютр is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 6,
+    "fields": {
+      "author": 3,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-26T18:43:39.890Z",
+      "title": "News 4",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 7,
+    "fields": {
+      "author": 3,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-26T18:44:17.057Z",
+      "title": "Article 4",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 8,
+    "fields": {
+      "author": 2,
+      "categoryType": "AR",
+      "dateCreation": "2023-07-26T18:44:41.224Z",
+      "title": "News 3",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 9,
+    "fields": {
+      "author": 1,
+      "categoryType": "AR",
+      "dateCreation": "2023-07-26T18:45:00.183Z",
+      "title": "Article 5",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 10,
+    "fields": {
+      "author": 2,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-26T18:45:11.504Z",
+      "title": "News 5",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 11,
+    "fields": {
+      "author": 3,
+      "categoryType": "AR",
+      "dateCreation": "2023-07-26T18:45:22.443Z",
+      "title": "Article 6",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 12,
+    "fields": {
+      "author": 1,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-26T18:45:33.121Z",
+      "title": "Article 7",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 13,
+    "fields": {
+      "author": 4,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-28T20:19:58.230Z",
+      "title": "News 6 testing Post",
+      "text": "Testing POST query",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 15,
+    "fields": {
+      "author": 5,
+      "categoryType": "NW",
+      "dateCreation": "2023-07-30T20:45:15.668Z",
+      "title": "News 7 testing create and updatee",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 18,
+    "fields": {
+      "author": 1,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-10T20:14:23.059Z",
+      "title": "News 8",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 19,
+    "fields": {
+      "author": 1,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-10T20:16:31.389Z",
+      "title": "News 8",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 20,
+    "fields": {
+      "author": 2,
+      "categoryType": "AR",
+      "dateCreation": "2023-08-10T20:18:31.863Z",
+      "title": "News 8",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 21,
+    "fields": {
+      "author": 2,
+      "categoryType": "AR",
+      "dateCreation": "2023-08-10T20:21:03.619Z",
+      "title": "News 8",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 22,
+    "fields": {
+      "author": 4,
+      "categoryType": "AR",
+      "dateCreation": "2023-08-10T20:26:04.270Z",
+      "title": "News 9",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 23,
+    "fields": {
+      "author": 3,
+      "categoryType": "AR",
+      "dateCreation": "2023-08-10T20:34:04.165Z",
+      "title": "News 10",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 24,
+    "fields": {
+      "author": 2,
+      "categoryType": "AR",
+      "dateCreation": "2023-08-10T20:37:07.581Z",
+      "title": "News 11",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 25,
+    "fields": {
+      "author": 4,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-10T20:59:52.848Z",
+      "title": "News 12",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 26,
+    "fields": {
+      "author": 4,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-10T21:02:01.833Z",
+      "title": "News 12",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 27,
+    "fields": {
+      "author": 4,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-10T21:07:51.708Z",
+      "title": "News 12",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 28,
+    "fields": {
+      "author": 4,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-10T21:09:01.808Z",
+      "title": "News 12",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 29,
+    "fields": {
+      "author": 4,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-10T21:09:56.973Z",
+      "title": "News 12",
+      "text": "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 30,
+    "fields": {
+      "author": 2,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-11T18:42:15.917Z",
+      "title": "News 13",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, *$*$*$*$ looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 31,
+    "fields": {
+      "author": 2,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-11T18:46:32.301Z",
+      "title": "News 13",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, *$*$*$*$ looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 32,
+    "fields": {
+      "author": 2,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-11T18:48:11.778Z",
+      "title": "News 13",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, *$*$*$*$ looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 33,
+    "fields": {
+      "author": 1,
+      "categoryType": "NW",
+      "dateCreation": "2023-08-11T18:54:06.482Z",
+      "title": "News 14",
+      "text": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 34,
+    "fields": {
+      "author": 5,
+      "categoryType": "AR",
+      "dateCreation": "2023-08-11T18:55:06.389Z",
+      "title": "News 15",
+      "text": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.post",
+    "pk": 35,
+    "fields": {
+      "author": 4,
+      "categoryType": "AR",
+      "dateCreation": "2023-08-11T18:58:33.521Z",
+      "title": "News 16",
+      "text": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "rating": 0
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 2,
+    "fields": {
+      "postThrough": 1,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 3,
+    "fields": {
+      "postThrough": 2,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 4,
+    "fields": {
+      "postThrough": 3,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 5,
+    "fields": {
+      "postThrough": 3,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 8,
+    "fields": {
+      "postThrough": 5,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 9,
+    "fields": {
+      "postThrough": 15,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 10,
+    "fields": {
+      "postThrough": 6,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 11,
+    "fields": {
+      "postThrough": 7,
+      "categoryThrough": 1
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 12,
+    "fields": {
+      "postThrough": 8,
+      "categoryThrough": 1
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 13,
+    "fields": {
+      "postThrough": 9,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 14,
+    "fields": {
+      "postThrough": 13,
+      "categoryThrough": 1
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 15,
+    "fields": {
+      "postThrough": 12,
+      "categoryThrough": 1
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 16,
+    "fields": {
+      "postThrough": 11,
+      "categoryThrough": 1
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 17,
+    "fields": {
+      "postThrough": 10,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 18,
+    "fields": {
+      "postThrough": 4,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 19,
+    "fields": {
+      "postThrough": 5,
+      "categoryThrough": 1
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 20,
+    "fields": {
+      "postThrough": 21,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 21,
+    "fields": {
+      "postThrough": 22,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 22,
+    "fields": {
+      "postThrough": 23,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 23,
+    "fields": {
+      "postThrough": 24,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 24,
+    "fields": {
+      "postThrough": 32,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 25,
+    "fields": {
+      "postThrough": 33,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 26,
+    "fields": {
+      "postThrough": 34,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 27,
+    "fields": {
+      "postThrough": 35,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 28,
+    "fields": {
+      "postThrough": 35,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 29,
+    "fields": {
+      "postThrough": 31,
+      "categoryThrough": 2
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 30,
+    "fields": {
+      "postThrough": 31,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 31,
+    "fields": {
+      "postThrough": 30,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 32,
+    "fields": {
+      "postThrough": 29,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 33,
+    "fields": {
+      "postThrough": 28,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 34,
+    "fields": {
+      "postThrough": 27,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 35,
+    "fields": {
+      "postThrough": 26,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 36,
+    "fields": {
+      "postThrough": 25,
+      "categoryThrough": 3
+    }
+  },
+  {
+    "model": "news.postcategory",
+    "pk": 37,
+    "fields": {
+      "postThrough": 25,
+      "categoryThrough": 4
+    }
+  },
+  {
+    "model": "news.comment",
+    "pk": 1,
+    "fields": {
+      "commentPost": 1,
+      "commentUser": 2,
+      "text": "Comment Text 1",
+      "dateCreation": "2023-07-17T13:18:42.759Z",
+      "rating": 3
+    }
+  },
+  {
+    "model": "news.comment",
+    "pk": 2,
+    "fields": {
+      "commentPost": 1,
+      "commentUser": 1,
+      "text": "Comment Text 2",
+      "dateCreation": "2023-07-17T13:18:51.005Z",
+      "rating": 2
+    }
+  },
+  {
+    "model": "news.comment",
+    "pk": 3,
+    "fields": {
+      "commentPost": 2,
+      "commentUser": 1,
+      "text": "Comment Text 3",
+      "dateCreation": "2023-07-17T13:18:57.854Z",
+      "rating": 1
+    }
+  },
+  {
+    "model": "news.comment",
+    "pk": 4,
+    "fields": {
+      "commentPost": 3,
+      "commentUser": 2,
+      "text": "Comment Text 4",
+      "dateCreation": "2023-07-17T13:19:04.563Z",
+      "rating": -1
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "domain": "127.0.0.1",
+      "name": "example.com"
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 3,
+    "fields": {
+      "user": 11,
+      "email": "newstefan@mail.ru",
+      "verified": false,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 5,
+    "fields": {
+      "user": 13,
+      "email": "okok@mail.ru",
+      "verified": false,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 6,
+    "fields": {
+      "user": 14,
+      "email": "okokok@mail.ru",
+      "verified": false,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 7,
+    "fields": {
+      "user": 15,
+      "email": "kykyky@mail.ru",
+      "verified": false,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 8,
+    "fields": {
+      "user": 16,
+      "email": "xoxo@mail.ru",
+      "verified": false,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 12,
+    "fields": {
+      "user": 20,
+      "email": "asd@mail.ru",
+      "verified": true,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 13,
+    "fields": {
+      "user": 21,
+      "email": "KAT@mail.ru",
+      "verified": true,
+      "primary": true
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 14,
+    "fields": {
+      "user": 7,
+      "email": "gosha@mail.ru",
+      "verified": true,
+      "primary": true
+    }
+  },
+  {
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+      "provider": "google",
+      "name": "Google",
+      "client_id": "236776606055-r3a80mcivmomovaqcup6qrqh765jcq9i.apps.googleusercontent.com",
+      "secret": "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",
+      "key": "",
+      "sites": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "delete_old_job_executions",
+    "fields": {
+      "next_run_time": "2023-08-13T21:00:00Z",
+      "job_state": "gAWVWAQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwZZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMBGZ1bmOUjEBuZXdzLm1hbmFnZW1lbnQuY29tbWFuZHMucnVuYXBzaGVkdWxlcjpkZWxldGVfb2xkX2pvYl9leGVjdXRpb25zlIwHdHJpZ2dlcpSMGWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb26UjAtDcm9uVHJpZ2dlcpSTlCmBlH2UKGgBSwKMCHRpbWV6b25llIwIYnVpbHRpbnOUjAdnZXRhdHRylJOUjAh6b25laW5mb5SMCFpvbmVJbmZvlJOUjAlfdW5waWNrbGWUhpRSlIwNRXVyb3BlL01vc2Nvd5RLAYaUUpSMCnN0YXJ0X2RhdGWUTowIZW5kX2RhdGWUTowGZmllbGRzlF2UKIwgYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5maWVsZHOUjAlCYXNlRmllbGSUk5QpgZR9lCiMBG5hbWWUjAR5ZWFylIwKaXNfZGVmYXVsdJSIjAtleHByZXNzaW9uc5RdlIwlYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5leHByZXNzaW9uc5SMDUFsbEV4cHJlc3Npb26Uk5QpgZR9lIwEc3RlcJROc2JhdWJoHYwKTW9udGhGaWVsZJSTlCmBlH2UKGgijAVtb250aJRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MD0RheU9mTW9udGhGaWVsZJSTlCmBlH2UKGgijANkYXmUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjAlXZWVrRmllbGSUk5QpgZR9lChoIowEd2Vla5RoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MDkRheU9mV2Vla0ZpZWxklJOUKYGUfZQoaCKMC2RheV9vZl93ZWVrlGgkiWglXZRoJ4wWV2Vla2RheVJhbmdlRXhwcmVzc2lvbpSTlCmBlH2UKGgsTowFZmlyc3SUSwCMBGxhc3SUSwB1YmF1YmgfKYGUfZQoaCKMBGhvdXKUaCSJaCVdlGgnjA9SYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoLE5oT0sAaFBLAHViYXViaB8pgZR9lChoIowGbWludXRllGgkiWglXZRoVimBlH2UKGgsTmhPSwBoUEsAdWJhdWJoHymBlH2UKGgijAZzZWNvbmSUaCSIaCVdlGhWKYGUfZQoaCxOaE9LAGhQSwB1YmF1YmWMBmppdHRlcpROdWKMCGV4ZWN1dG9ylIwHZGVmYXVsdJSMBGFyZ3OUKYwGa3dhcmdzlH2UaCJoA4wSbWlzZmlyZV9ncmFjZV90aW1llEsBjAhjb2FsZXNjZZSIjA1tYXhfaW5zdGFuY2VzlEsBjA1uZXh0X3J1bl90aW1llIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+cIDgAAAAAAAJRoGIaUUpR1Lg=="
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "notify_subscribers",
+    "fields": {
+      "next_run_time": "2023-08-12T21:05:00Z",
+      "job_state": "gAWV6AMAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwSbm90aWZ5X3N1YnNjcmliZXJzlIwEZnVuY5SMLW5ld3MubWFuYWdlbWVudC5jb21tYW5kcy5ydW5hcHNoZWR1bGVyOm15X2pvYpSMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwIem9uZWluZm+UjAhab25lSW5mb5STlIwJX3VucGlja2xllIaUUpSMDUV1cm9wZS9Nb3Njb3eUSwGGlFKUjApzdGFydF9kYXRllE6MCGVuZF9kYXRllE6MBmZpZWxkc5RdlCiMIGFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZmllbGRzlIwJQmFzZUZpZWxklJOUKYGUfZQojARuYW1llIwEeWVhcpSMCmlzX2RlZmF1bHSUiIwLZXhwcmVzc2lvbnOUXZSMJWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZXhwcmVzc2lvbnOUjA1BbGxFeHByZXNzaW9ulJOUKYGUfZSMBHN0ZXCUTnNiYXViaB2MCk1vbnRoRmllbGSUk5QpgZR9lChoIowFbW9udGiUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA9EYXlPZk1vbnRoRmllbGSUk5QpgZR9lChoIowDZGF5lGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwJV2Vla0ZpZWxklJOUKYGUfZQoaCKMBHdlZWuUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA5EYXlPZldlZWtGaWVsZJSTlCmBlH2UKGgijAtkYXlfb2Zfd2Vla5RoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB8pgZR9lChoIowEaG91cpRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB8pgZR9lChoIowGbWludXRllGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHymBlH2UKGgijAZzZWNvbmSUaCSJaCVdlGgpKYGUfZRoLEsec2JhdWJljAZqaXR0ZXKUTnVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlCmMBmt3YXJnc5R9lGgijAZteV9qb2KUjBJtaXNmaXJlX2dyYWNlX3RpbWWUSwGMCGNvYWxlc2NllIiMDW1heF9pbnN0YW5jZXOUSwGMDW5leHRfcnVuX3RpbWWUjAhkYXRldGltZZSMCGRhdGV0aW1llJOUQwoH5wgNAAUAAAAAlGgYhpRSlHUu"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 1,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:34:30Z",
+      "duration": "0.35",
+      "finished": "1691872470.35",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 2,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:35:00Z",
+      "duration": "0.96",
+      "finished": "1691872500.96",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 3,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:35:30Z",
+      "duration": "0.95",
+      "finished": "1691872530.95",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 4,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:36:00Z",
+      "duration": "0.93",
+      "finished": "1691872560.93",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 5,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:36:30Z",
+      "duration": "1.23",
+      "finished": "1691872591.23",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 6,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:37:00Z",
+      "duration": "1.22",
+      "finished": "1691872621.22",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 7,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:37:30Z",
+      "duration": "0.94",
+      "finished": "1691872650.94",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 8,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:38:00Z",
+      "duration": "0.63",
+      "finished": "1691872680.63",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 9,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:38:30Z",
+      "duration": "0.61",
+      "finished": "1691872710.61",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 10,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:39:00Z",
+      "duration": "0.94",
+      "finished": "1691872740.94",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 11,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:39:30Z",
+      "duration": "0.95",
+      "finished": "1691872770.95",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 12,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:40:00Z",
+      "duration": "0.91",
+      "finished": "1691872800.91",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 13,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:40:30Z",
+      "duration": "0.93",
+      "finished": "1691872830.93",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 14,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:41:00Z",
+      "duration": "0.64",
+      "finished": "1691872860.64",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 15,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Error!",
+      "run_time": "2023-08-12T20:41:30Z",
+      "duration": "0.61",
+      "finished": "1691872890.61",
+      "exception": "'Post' object has no attribute 'header'",
+      "traceback": "  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\venv\\Lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\commands\\runapsheduler.py\", line 16, in my_job\n    weelky_news_job()\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 66, in weelky_news_job\n    send_notification(subscriber, cat_name)\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in send_notification\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 23, in <listcomp>\n    posts_info[\"posts\"] = [compose_obj(post) for post in posts]\n                           ^^^^^^^^^^^^^^^^^\n  File \"E:\\╧╨╬├╨└╠╚╨╬┬└═╚┼\\╩╙╨╤█\\╩єЁё SkillFactory\\┴ыюъ D (Bekend ЁрчЁрсюЄър)\\D3.2 (Django_Project-NewsPaper ьющ яЁюхъЄ)\\NewsPaper\\news\\management\\jobs\\weekly_job.py\", line 12, in compose_obj\n    _post['title'] = post.header\n                     ^^^^^^^^^^^\n"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 16,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:42:30Z",
+      "duration": "0.42",
+      "finished": "1691872950.42",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 17,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:43:00Z",
+      "duration": "0.69",
+      "finished": "1691872980.69",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 18,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:43:30Z",
+      "duration": "0.63",
+      "finished": "1691873010.63",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 19,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:44:00Z",
+      "duration": "0.60",
+      "finished": "1691873040.60",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 20,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:44:30Z",
+      "duration": "0.63",
+      "finished": "1691873070.63",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 21,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:45:00Z",
+      "duration": "0.68",
+      "finished": "1691873100.68",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 22,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:45:30Z",
+      "duration": "0.99",
+      "finished": "1691873130.99",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 23,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:46:00Z",
+      "duration": "0.96",
+      "finished": "1691873160.96",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 24,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:46:30Z",
+      "duration": "0.94",
+      "finished": "1691873190.94",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 25,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:47:00Z",
+      "duration": "0.92",
+      "finished": "1691873220.92",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 26,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:47:30Z",
+      "duration": "0.60",
+      "finished": "1691873250.60",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 27,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:48:00Z",
+      "duration": "0.96",
+      "finished": "1691873280.96",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 28,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:55:30Z",
+      "duration": "0.33",
+      "finished": "1691873730.33",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 29,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:56:00Z",
+      "duration": "0.92",
+      "finished": "1691873760.92",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 30,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:58:30Z",
+      "duration": "0.36",
+      "finished": "1691873910.36",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 31,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T20:59:00Z",
+      "duration": "0.59",
+      "finished": "1691873940.59",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 32,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T21:01:00Z",
+      "duration": "0.74",
+      "finished": "1691874060.74",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 33,
+    "fields": {
+      "job": "notify_subscribers",
+      "status": "Executed",
+      "run_time": "2023-08-12T21:01:30Z",
+      "duration": "0.97",
+      "finished": "1691874090.97",
+      "exception": null,
+      "traceback": null
+    }
+  }
+]

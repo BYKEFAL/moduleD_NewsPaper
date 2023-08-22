@@ -1,0 +1,41 @@
+[
+{
+  "model": "news.category",
+  "pk": 1,
+  "fields": {
+    "name": "IT",
+    "subscribers": [
+      7
+    ]
+  }
+},
+{
+  "model": "news.category",
+  "pk": 2,
+  "fields": {
+    "name": "Sport",
+    "subscribers": [
+      7
+    ]
+  }
+},
+{
+  "model": "news.category",
+  "pk": 3,
+  "fields": {
+    "name": "Science",
+    "subscribers": [
+      7,
+      20
+    ]
+  }
+},
+{
+  "model": "news.category",
+  "pk": 4,
+  "fields": {
+    "name": "Politics",
+    "subscribers": []
+  }
+}
+]

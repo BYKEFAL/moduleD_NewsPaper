@@ -25,8 +25,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-@1giz2bj4c%*h+tjb0nz#u=esro)ca7)7#v*-uku87!*w_5j(9'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
@@ -72,6 +70,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
+
+    'middleware.mobileChoiceMiddleware.MobileOrFullMiddleware',
 ]
 
 ROOT_URLCONF = 'project.urls'
@@ -104,6 +104,19 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# Настройки docker контейнера в файле docker-compose.yml, PostgresSQL БД развернута локально в контейнере. для ДЗ закоментирую и подключу SQlite обратно.
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'HOST': 'localhost',
+#         'PORT': 5432,
+#         'USER': str(os.getenv('DATA_USER')),
+#         'PASSWORD': str(os.getenv('DATA_PASSWORD')),
+#         'NAME': 'db-NewsPaper'
+
+#     }
+# }
 
 
 # Password validation
@@ -188,6 +201,9 @@ MY_TEST_EMAIL = str(os.getenv('MY_TEST_EMAIL'))
 # Для просмотра HTML-шаблонов, которые отправляются на мыло, в консоли
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+ADMINS = [
+    ("admin", MY_TEST_EMAIL)
+]
 
 # формат даты, которую будет воспринимать наш задачник(вспоминаем урок по фильтрам)
 APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
@@ -201,4 +217,114 @@ CACHES = {
         # Указываем, куда будем сохранять кэшируемые файлы! Не забываем создать папку cache_files внутри папки с manage.py!
         'LOCATION': os.path.join(BASE_DIR, 'cache_files'),
     }
+}
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+# что-то слишком много дэбага в консоле
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "simple": {
+            "format": "{asctime} {levelname} {message}",
+            "style": "{",
+        },
+        "detailed": {
+            # Формат вывода для обработчика general_file
+            "format": "{asctime} {levelname} {module} {message} {exc_info}",
+            "style": "{",  # Стиль форматирования, используем фигурные скобки
+        },
+        "detailed_error_critical": {
+            "format": "{name} {asctime} {levelname} {message} {pathname} {exc_info}",
+            "style": "{",
+        },
+        "detail_on_mail": {
+            "format": "{name} {asctime} {levelname} {message} {pathname}",
+            "style": "{",
+        }
+    },
+    "filters": {
+        "require_debug_true": {
+            "()": "django.utils.log.RequireDebugTrue",
+        },
+        "require_debug_false": {
+            "()": "django.utils.log.RequireDebugFalse",
+        },
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "simple" if "level" == "DEBUG" else "detailed_error_critical",
+            # Используем встроенный фильтр RequireDebugTrue
+            "filters": ["require_debug_true"],
+            "level": "DEBUG",
+        },
+        "general_file": {
+            "class": "logging.handlers.TimedRotatingFileHandler",
+            "filename": os.path.join("logs", "general.log"),
+            "when": "midnight",
+            "backupCount": 30,
+            "formatter": "detailed",
+            "level": "INFO",  # Уровень обработчика для файла general.log
+            "filters": ["require_debug_false"],
+        },
+        "errors_file": {
+            "class": "logging.handlers.TimedRotatingFileHandler",
+            "filename": os.path.join("logs", "errors.log"),
+            "when": "midnight",
+            "backupCount": 30,
+            "formatter": "detailed_error_critical",
+            "level": "ERROR",
+        },
+        "security_file": {
+            "class": "logging.handlers.TimedRotatingFileHandler",
+            "filename": os.path.join("logs", "security.log"),
+            "when": "midnight",
+            "backupCount": 30,
+            "formatter": "detailed",
+            "level": "INFO",  # Уровень обработчика для файла security.log
+        },
+        "mail_admins": {
+            # "class": "logging.handlers.SMTPHandler",
+            "class": "django.utils.log.AdminEmailHandler",
+            "formatter": "detail_on_mail",
+            "level": "ERROR",
+            "filters": ["require_debug_false"],
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["console", "general_file"],
+            "level": "DEBUG",
+            "propagate": False,
+            'exc_info': True,
+        },
+        "django.request": {
+            "handlers": ["console", "errors_file", "mail_admins"],
+            "level": "ERROR",
+            "propagate": False,
+        },
+        "django.server": {
+            "handlers": ["console", "errors_file", "mail_admins"],
+            "level": "ERROR",
+            "propagate": False,
+        },
+        "django.template": {
+            "handlers": ["console", "errors_file"],
+            "level": "ERROR",
+            "propagate": False,
+        },
+        "django.db.backends": {
+            "handlers": ["console", "errors_file"],
+            "level": "ERROR",
+            "propagate": False,
+        },
+        "django.security": {
+            "handlers": ["console", "security_file"],
+            "level": "INFO",
+            "propagate": False,
+        },
+    },
 }

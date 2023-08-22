@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres:15.4
+    container_name: NewsPaperPostgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ad123
+      POSTGRES_USER: admin
+      POSTGRES_DB: db-NewsPaper
+      # PGDATA: /NewsPaper/postgresdata меняет директорию базы данных в контейнере...
+      # POSTGRES_INITDB_ARGS: "-A md5"
+    ports:
+      - 5432:5432
+    volumes:
+      # - ./pgdata:/var/lib/postgresql/data/ ("./" сохраняет и подключает volume в директории где находится файл docker-compose.yml)
+      - pgdata:/var/lib/postgresql/data/
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+# создает volume локально в dockere и хранит резервную копию файлов путь к которым указан в volumes от services (можно покдлючать несколько сервисом к одному volums)
+volumes:
+  pgdata:
+    name: "PGDataNewsPaper"
+  

@@ -1,0 +1,295 @@
+django.request 2023-08-22 14:31:39,175 ERROR Internal Server Error: /news/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x000001B1B1A860C0>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:31:39,462 ERROR "GET /news/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:35:11,620 ERROR Internal Server Error: /news/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x000001E66F056400>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:35:16,775 ERROR "GET /news/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:36:09,604 ERROR Internal Server Error: /news/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x0000014510ECBEC0>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:36:14,707 ERROR "GET /news/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:37:56,068 ERROR Internal Server Error: /news/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x00000201E8DA3A40>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:37:56,332 ERROR "GET /news/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:43:04,110 ERROR Internal Server Error: /news/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x0000028919041DC0>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:43:09,245 ERROR "GET /news/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:44:23,615 ERROR Internal Server Error: /news/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x000002892FCAF300>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:44:28,725 ERROR "GET /news/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:45:38,957 ERROR Internal Server Error: /news/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x0000020021EEE0C0>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:45:39,173 ERROR "GET /news/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:53:26,779 ERROR Internal Server Error: /news/search/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'TypeError'>, TypeError("BaseFilterSet.__init__() got an unexpected keyword argument 'eryset'"), <traceback object at 0x00000200B33ED540>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\NewsPaper\news\views.py", line 45, in get_context_data
+    context['filter'] = PostFilter(
+                        ^^^^^^^^^^^
+TypeError: BaseFilterSet.__init__() got an unexpected keyword argument 'eryset'
+django.server 2023-08-22 14:53:26,990 ERROR "GET /news/search/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 14:57:07,998 ERROR Internal Server Error: /news/search/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x00000174225A7D80>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 14:57:08,186 ERROR "GET /news/search/ HTTP/1.1" 500 145 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
+django.request 2023-08-22 15:00:29,153 ERROR Internal Server Error: /news/search/ E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title"), <traceback object at 0x000002796850CA80>)
+Traceback (most recent call last):
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\views\generic\list.py", line 45, in get_queryset
+    queryset = queryset.order_by(*ordering)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 2210, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'dateCreati' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, postCategory, postcategory, rating, text, title
+django.server 2023-08-22 15:00:29,166 ERROR "GET /news/search/ HTTP/1.1" 500 119261 E:\ПРОГРАМИРОВАНИЕ\КУРСЫ\Курс SkillFactory\Блок D (Bekend разработка)\D3.2 (Django_Project-NewsPaper мой проект)\venv\Lib\site-packages\django\core\servers\basehttp.py None
